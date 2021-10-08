@@ -19,7 +19,6 @@ $ pip install -r requirements.txt
 ...
     src/
     ├── .env
-    ├── async_plain_sql.py
     ├── config.py
     ├── db_init.py
     └── sync_plain_sql.py
