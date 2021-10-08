@@ -19,7 +19,7 @@ def sync_db_ops() -> None:
     cursor = conn.cursor()
 
     data = data_from_db()
-    print(len(data), "row selected")
+    print(len(data), "rows selected")
 
     # Insert into the tables
     cursor.executemany("INSERT INTO users_0 (name) VALUES (%s)", data)
