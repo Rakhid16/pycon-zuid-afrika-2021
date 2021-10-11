@@ -19,9 +19,12 @@ $ pip install -r requirements.txt
 ...
     src/
     ├── .env
+    ├── async_plain_sql.py
     ├── config.py
     ├── db_init.py
-    └── sync_plain_sql.py
+    ├── db_models.py
+    ├── sync_plain_sql.py
+    └── try_sqlalchemy.py
 ...
 ```
 5. Content of the **.env** file:
